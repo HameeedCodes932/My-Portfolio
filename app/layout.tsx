@@ -55,7 +55,7 @@ export default function RootLayout({
         </noscript>
                <Script
           src="https://chatsink.com/widget.js?v=20261002"
-          data-widget-key="Ypk_live_FDbcEU5vwvDw51VrBwuqfb_9Ro-fcZxx"
+          data-widget-key="pk_live_FDbcEU5vwvDw51VrBwuqfb_9Ro-fcZxx"
           data-api="https://api.chatsink.com"
           data-position="bottom-right"
           strategy="lazyOnload"
