@@ -4,6 +4,7 @@ import Scene from "@/components/scene/Scene";
 import RobotDirector from "@/components/scene/RobotDirector";
 import TransitionProvider from "@/components/transition/TransitionProvider";
 import "./globals.css";
+import Script from "next/script";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -52,6 +53,13 @@ export default function RootLayout({
         <noscript>
           <style>{`.transition-all{opacity:1!important;transform:none!important;filter:none!important}`}</style>
         </noscript>
+               <Script
+          src="https://chatsink.com/widget.js?v=20261002"
+          data-widget-key="pk_live_FDbcEU5vwvDw51VrBwuqfb_9Ro-fcZxx"
+          data-api="https://api.chatsink.com"
+          data-position="bottom-right"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );
